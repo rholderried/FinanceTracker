@@ -18,5 +18,8 @@ class Database:
 
         data = pd.read_csv(filePath, sep=';')
 
-        
+        for val in data['Buchungstag']:
+            print(val)
+
+
         
